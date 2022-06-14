@@ -9,7 +9,7 @@ var instructions_block = {
     "<p>Your task is to determine which of the two items is <strong>MORE SIMILAR</strong> to the original.</p>" +
     "<p>Please use the <strong>right arrow</strong> and the <strong>left arrow</strong> keys to select the picture or word that is more similar to the original item.</p> " +
     `<img style ='display: block; margin: auto;height: 40%;' src=  'https://i.ibb.co/sv67STv/inst-word2.png' alt='Picture'>` +
-    "<p>For example, this picture is <strong>blue, circle, and checkers</strong>.</p>",
+    "<p>For example, this item is <strong>blue, circle, and checkers</strong>.</p>",
         "<p style='font-size:0.8em;text-align:center;'>Page 2 of 2</p>" +
         `<img style='display: block; margin: auto; height: 40%;'src= 'https://i.ibb.co/Ldcpm5j/inst-word.png' alt='Picture'>` +
         "<p>In this example, the left item is similar to the original item in two features,<strong>color and shape</strong>, whereas the right item is similar to the original item only in one feature, <strong>texture</strong>.</p>" +
