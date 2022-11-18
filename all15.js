@@ -54,8 +54,8 @@ const words = [
     {stimuli: [`${repoSite}ImageFiles/single18.bmp`, `${repoSite}ImageFiles/two18.bmp`], answer: 'different'},
     {stimuli: [`${repoSite}ImageFiles/single19.bmp`, `${repoSite}ImageFiles/two19.bmp`], answer: 'different'},
     {stimuli: [`${repoSite}ImageFiles/single20.bmp`, `${repoSite}ImageFiles/two20.bmp`], answer: 'different'},
-    {stimuli: [`${repoSite}ImageFiles/single21.bmp`, `${repoSite}ImageFiles/two21.bmp`], answer: 'same'},
-    {stimuli: [`${repoSite}ImageFiles/single22.bmp`, `${repoSite}ImageFiles/two22.bmp`], answer: 'same'},
+    {stimuli: [`${repoSite}ImageFiles/single21.bmp`, `${repoSite}ImageFiles/two21.bmp`], answer: 'different'},
+    {stimuli: [`${repoSite}ImageFiles/single22.bmp`, `${repoSite}ImageFiles/two22.bmp`], answer: 'different'},
     {stimuli: [`${repoSite}ImageFiles/single23.bmp`, `${repoSite}ImageFiles/two23.bmp`], answer: 'different'},
     {stimuli: [`${repoSite}ImageFiles/single24.bmp`, `${repoSite}ImageFiles/two24.bmp`], answer: 'different'}
 ];
@@ -81,8 +81,8 @@ const pictures = [
     {stimuli: [`${repoSite}ImageFiles/word-single18.png`, `${repoSite}ImageFiles/word-two18.png`], answer: 'different'},
     {stimuli: [`${repoSite}ImageFiles/word-single19.png`, `${repoSite}ImageFiles/word-two19.png`], answer: 'different'},
     {stimuli: [`${repoSite}ImageFiles/word-single20.png`, `${repoSite}ImageFiles/word-two20.png`], answer: 'different'},
-    {stimuli: [`${repoSite}ImageFiles/word-single21.png`, `${repoSite}ImageFiles/word-two21.png`], answer: 'same'},
-    {stimuli: [`${repoSite}ImageFiles/word-single22.png`, `${repoSite}ImageFiles/word-two22.png`], answer: 'same'},
+    {stimuli: [`${repoSite}ImageFiles/word-single21.png`, `${repoSite}ImageFiles/word-two21.png`], answer: 'different'},
+    {stimuli: [`${repoSite}ImageFiles/word-single22.png`, `${repoSite}ImageFiles/word-two22.png`], answer: 'different'},
     {stimuli: [`${repoSite}ImageFiles/word-single23.png`, `${repoSite}ImageFiles/word-two23.png`], answer: 'different'},
     {stimuli: [`${repoSite}ImageFiles/word-single24.png`, `${repoSite}ImageFiles/word-two24.png`], answer: 'different'}
 ];
