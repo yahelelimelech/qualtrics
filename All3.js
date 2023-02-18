@@ -1,6 +1,33 @@
 let repoSite = "https://bentsileviavtau.github.io/VV/";
 //In this study, you will complete a simple task in which you will be asked to select a picture or word that is similar to the original
 
+var instructions_block = {
+  type: "instructions",
+  pages: [
+    "<p style='font-size:0.8em;text-align:center;'>Page 1 of 2</p>" +
+      "<p>In this task, you will see an item that has three features: shape, color, and texture.</p> " +
+      "<p>Subsequently, the item will disappear and you will see two items. One item shares <strong>two features</strong> with the original item, and the other shares only <strong>one feature</strong>.</p>" +
+      "<p>Your task is to determine which of the two items is <strong>MORE SIMILAR</strong> to the original.</p>" +
+      "<p>Please use the <strong>right arrow</strong> and the <strong>left arrow</strong> keys to select the picture or word that is more similar to the original item.</p> " +
+      `<img style ='display: block; margin: auto; max-width: 50%;' src=  '${repoSite}ImageFiles/single1.bmp' alt='Picture'>` +
+      "<p>For example, this item is <strong>blue, circle, and checkers</strong>.</p>",
+    "<p style='font-size:0.8em;text-align:center;'>Page 2 of 2</p>" +
+      `<img style='display: block; margin: auto; max-width: 50%;'src= '${repoSite}ImageFiles/two1.bmp' alt='Picture'>` +
+      "<p>In this example, the left item is similar to the original item in two features,<strong>color and shape</strong>, whereas the right item is similar to the original item only in one feature, <strong>texture</strong>.</p>" +
+      "<p>Therefore, you should press the <strong>left arrow key</strong> to indicate that the left item is more similar to the original item than the right item.</p>" +
+      "<p>Accuracy and speed are both important, <strong>so try to answer as fast as possible without making mistakes.</strong></p>" +
+      "<p>Please start the task whenever you are ready.</p>",
+  ],
+  allow_keys: false,
+  show_clickable_nav: true,
+};
+
+var start_block = {
+  type: "text",
+  text: '<p style="text-align:center;position: relative; top: 50%;-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%); transform: translateY(-50%);">Please put your fingers on the left arrow and right arrow key on your keyboard. <br> Press the <strong>right arrow</strong> key when you are ready to start.</p>',
+  cont_key: [39],
+};
+
 const shapes1 = [
   {
     stimuli: [
@@ -349,6 +376,19 @@ const words2 = [
   },
 ];
 
+const testArray = [];
+testArray.push(words1.sort(() => Math.random() - 0.5).slice(0, 1)[0]);
+testArray.push(shapes2.sort(() => Math.random() - 0.5).slice(0, 1)[0]);
+
+var test = {
+  type: "same-different",
+  same_key: 37,
+  different_key: 39,
+  timing_second_stim: -1,
+  timeline: testArray,
+  randomize_order: true,
+};
+
 var blockword1 = {
   type: "same-different",
   same_key: 37,
@@ -383,6 +423,7 @@ var blockshape2 = {
   timeline: shapes2.sort(() => Math.random() - 0.5).slice(0, 8),
   randomize_order: true,
 };
+
 var timelineword1 = [];
 timelineword1.push(blockword1);
 
@@ -394,6 +435,9 @@ timelineshape1.push(blockshape1);
 
 var timelineshape2 = [];
 timelineshape2.push(blockshape2);
+
+var timelinetestArray = [instructions_block, start_block];
+timelinetestArray.push(test);
 
 var images = [
   `${repoSite}ImageFiles/two1.bmp`,
