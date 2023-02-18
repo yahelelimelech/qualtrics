@@ -349,12 +349,14 @@ const words2 = [
   },
 ];
 
+// Randomaly get 8 words from words2 array
+
 var block = {
   type: "same-different",
   same_key: 37,
   different_key: 39,
   timing_second_stim: -1,
-  timeline: words2,
+  timeline: jsPsych.randomization.sampleWithoutReplacement(words2, 8),
   randomize_order: true,
 };
 
