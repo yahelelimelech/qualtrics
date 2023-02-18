@@ -354,7 +354,7 @@ var block = {
   same_key: 37,
   different_key: 39,
   timing_second_stim: -1,
-  timeline: shapes1,
+  timeline: shapes1.sort(() => Math.random() - 0.5).slice(0, 8),
   randomize_order: true,
 };
 
