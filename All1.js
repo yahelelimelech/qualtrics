@@ -384,16 +384,16 @@ var blockshape2 = {
   randomize_order: true,
 };
 var timelineword1 = [];
-timeline.push(blockword1);
+timelineword1.push(blockword1);
 
 var timelineword2 = [];
-timeline.push(blockword2);
+timelineword2.push(blockword2);
 
 var timelineshape1 = [];
-timeline.push(blockshape1);
+timelineshape1.push(blockshape1);
 
 var timelineshape2 = [];
-timeline.push(blockshape2);
+timelineshape2.push(blockshape2);
 
 var images = [
   `${repoSite}ImageFiles/two1.bmp`,
