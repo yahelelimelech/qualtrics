@@ -7,7 +7,7 @@ var instructions_block = {
     "<p style='font-size:0.8em;text-align:center;'>Page 1 of 2</p>" +
       "<p>In this task, you will see an item that has three features: shape, color, and texture.</p> " +
       "<p>Subsequently, the item will disappear and you will see two items. One item shares <strong>two features</strong> with the original item, and the other shares only <strong>one feature</strong>.</p>" +
-      "<p>Your task is to determine which of the two items is <strong>MORE SIMILAR</strong> to the original.</p>" +
+      "<p>Your task is to determine which of the two items is <strong>MORE SIMILAR</strong> to the original. Items can apear either in picture or word form.</p>" +
       "<p>Please use the <strong>right arrow</strong> and the <strong>left arrow</strong> keys to select the picture or word that is more similar to the original item.</p> " +
       `<img style ='display: block; margin: auto; max-width: 50%;' src=  '${repoSite}ImageFiles/single1.bmp' alt='Picture'>` +
       "<p>For example, this item is <strong>blue, circle, and checkers</strong>.</p>",
