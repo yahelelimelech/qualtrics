@@ -437,8 +437,8 @@ timelineshape1.push(blockshape1);
 var timelineshape2 = [];
 timelineshape2.push(blockshape2);
 
-var timelinetestArray = [instructions_block, start_block];
-timelinetestArray.push(test);
+var timelinetestPicsArray = [instructions_block, start_block];
+timelinetestPicsArray.push(test);
 
 var images = [
   `${repoSite}ImageFiles/two1.bmp`,
