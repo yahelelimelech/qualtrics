@@ -10,10 +10,10 @@ var instructions_block = {
       "<p>Your task is to determine which of the two items is <strong>MORE SIMILAR</strong> to the original.</p>" +
     "<p>Items can appear either as pictures of the shapes, or as the verbal label of the shapes (e.g., the word 'triangle'; the word 'stripes', etc).</p>"+
       "<p>Please use the <strong>right arrow</strong> and the <strong>left arrow</strong> keys to select the picture or word that is more similar to the original item.</p> " +
-      `<img style ='display: block; margin: auto; max-width: 50%;' src=  '${repoSite}ImageFiles/word-single1.bmp' alt='Picture'>` +
+      `<img style ='display: block; margin: auto; max-width: 50%;' src=  '${repoSite}ImageFiles/word-single1.png' alt='Picture'>` +
       "<p>For example, this item is <strong>blue, circle, and checkers</strong>.</p>",
     "<p style='font-size:0.8em;text-align:center;'>Page 2 of 2</p>" +
-      `<img style='display: block; margin: auto; max-width: 50%;'src= '${repoSite}ImageFiles/word-two1.bmp' alt='Picture'>` +
+      `<img style='display: block; margin: auto; max-width: 50%;'src= '${repoSite}ImageFiles/word-two1.png' alt='Picture'>` +
       "<p>In this example, the left item is similar to the original item in two features,<strong>color and shape</strong>, whereas the right item is similar to the original item only in one feature, <strong>texture</strong>.</p>" +
       "<p>Therefore, you should press the <strong>left arrow key</strong> to indicate that the left item is more similar to the original item than the right item.</p>" +
       "<p>Accuracy and speed are both important, <strong>so try to answer as fast as possible without making mistakes.</strong></p>" +
@@ -293,8 +293,8 @@ const words1 = [
 const words2 = [
   {
     stimuli: [
-      `${repoSite}ImageFiles/word-single1.png`,
-      `${repoSite}ImageFiles/word-two1.png`,
+      `${repoSite}ImageFiles/word-single25.png`,
+      `${repoSite}ImageFiles/word-two25.png`,
     ],
     answer: "same",
   },
